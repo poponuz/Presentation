@@ -37,6 +37,9 @@
 <section>
 <section>
 	<h4>Python</h4>
+	<pre><code class="hljs c++" data-trim contenteditable>
+			print('Hello World')
+			</code></pre>
 </section>
 <section>
 	<ul>
@@ -60,7 +63,26 @@
 
 <section>
 <section>
+				<h4>Javascript</h4>
+				<pre><code class="hljs c++" data-trim contenteditable>
+						global  _main
+    extern  _printf
+
+    section .text
+_main:
+    push    message
+    call    _printf
+    add     esp, 4
+    ret
+message:
+    db  'Hello, World', 10, 0
+						</code></pre>
+</section>
+<section>
 	<h4>Javascript</h4>
+	<pre><code class="hljs c++" data-trim contenteditable>
+			console.log("Hello World");
+			</code></pre>
 </section>
 <section>
 	<ul><h4>Where is JS suitable?</h4>
@@ -82,6 +104,15 @@
 <section>
 <section>
 	<h4>Java</h4>
+	<pre><code class="hljs c++" data-trim contenteditable>
+			class HelloWorld
+			{
+			  public static void main(String[] args)
+			  {
+				System.out.println("Hello World!!");
+			  }
+			}
+			</code></pre>
 </section>
 <section>
 	<ul><h4>Types Of Java Applications</h4>
@@ -102,6 +133,14 @@
 <section>
 <section>
 	<h4>Go</h4>
+	<pre><code class="hljs c++" data-trim contenteditable>
+			package main
+			import "fmt"
+			func main() {
+  			  fmt.Println("hello world")
+			}
+			</code>
+	</pre>
 </section>
 <section>
 	<ul><h4>Benefits Of Go</h4>
